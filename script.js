@@ -12,6 +12,7 @@ var number;
 function guessedNum (input) {
   input = prompt('Please key in a number')
   guessedNum = parseInt(input)
+
   askForANumber()
 }
 // fn that generates randomNum
