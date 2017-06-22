@@ -2,8 +2,7 @@
 // or if the number guess is correct, we change the body color
 
 var randomNumber = randomFn(0, 10)
-var guessNum = prompt('The first guess: type your number!')
-var guessedNum = parseInt(guessNum)
+var guessedNum = prompt('The first guess: type your number!')
 var isCorrect = false
 var gameOver = false
 
@@ -45,9 +44,8 @@ function checkForGameover() {
   if(gameOver) {
     alert('reveal the restart button now, stop the game')
   } else {
-    var guessNum = prompt('The first guess: type your number!')
-    var guessedNum = parseInt(guessNum)
-        // bugs?!
+    guessedNum = prompt('Type your number again!')
+    // bugs?!
     askForANumber(guessedNum, 5)
   }
 }
