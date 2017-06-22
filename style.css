@@ -1,5 +1,9 @@
 body {
-  background-color: rgba(46, 54, 214, 0.5)
+  background-color: rgba(46, 54, 214, 0.5);
+}
+
+h1 {
+  color: black;
 }
 
 .container {
