@@ -52,6 +52,6 @@ function checkForGameover () {
   }
 }
 
-if(! gameOver) {
+if(!gameOver) {
   newGame()
 }
